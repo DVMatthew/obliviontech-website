@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*.navbar-inverse {
+    position: absolute;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-brand {
+
+    font-size: 50px;
+
+}
+
+.navbar-inverse .navbar-nav li {
+
+    
+
+}*/
+
+.landing-header {
+    background-image: url("imgs/login_bg.jpg");
+    height: 100%;
+}
+
+.landing-header {
+    margin: 0;
+}
+
+
+/* Nav bar Section */
+.active {
+    color: aqua;
+}
+
+
+#brand-font {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+#brand-font:hover {
+    transition: 0.3s ease;
+    color: lightgray;
+}
+
+
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: absolute;
+}
+
+.navbar-brand-img {
+    height: 50px;
+    width: 50px;
+    padding-right: 15px;
+}
+
+.navbar-default {
+    transition: 1s all ease;
+}
+
+.navbar-default.black {
+    transition: 1s all ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-inverse {
+    padding-top: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-inverse .navbar-brand {  
+    color: black;
+    text-shadow: 0px 0px 15px black;
+    transition: 0.3s ease;
+}
+
+.navbar-inverse .navbar-brand:hover {  
+    color: black;
+    transition: 0.3s ease;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 15px black;
+    font-size: 20px;
+    transition: 0.3s ease;    
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    letter-spacing: 5px;
+    transition: 0.3s ease;    
+    color: lightgray;
+}
+
+
+#landingH1 {
+    animation-duration: 2s;
+    font-family: "Lobster", cursive;
+}
+
+#landingHr {
+    animation-duration: 3s;
+}
+
+#landingP {
+    animation-duration: 4s;
+}
+
+.landing-text {
+    text-shadow: 0px 0px 14px black;
+    text-align: center;
+}
+
+.bg {
+    /* The image used */
+    background: 
+/*
+    linear-gradient(
+    rgba(173, 83, 137, 0.45),
+    rgba(60, 150, 243, 0.25)),
+*/
+    url("imgs/login_bg.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg img {
+    margin-top: 400px;
+    height: 125px;
+    width: 350px;
+}
+
+.landing-text p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Parisienne", cursive;
+}
+
+hr {
+    width: 15%;
+    margin-left: 42.5%;
+}
+
+#bottomHr {
+    width: 225px;
+    border: none;    
+    background-color: #fff;    
+    height: 1px;    
+} 
+
+.landing-text h1{
+    padding-top: 20%;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-family: 'Great Vibes', cursive;
+}
+
+.btn-secondary {
+    border-radius: 1px;
+    font-family: 'Patua One', cursive;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    transition: 0.3s ease;
+    background-color: transparent;
+    color: white;
+    border-color: #cc4300;
+}
+
+.btn-secondary:hover {
+    transition: 0.3s ease;
+    background-color: rgba(204, 78, 0, 0.5);
+    color: white;
+    border-radius: 1px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.btn-action {
+    margin-bottom: 4%;
+    font-family: 'Patua One', cursive;
+    margin-top: 4%;
+    border-radius: 1px;
+    transition: 0.3s ease;
+    color: white;
+    background-color: transparent;
+    border-color: #cc4300;
+}
+
+.btn-action:hover {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    border-radius: 1px;
+    transition: 0.3s ease;
+    background-color: rgba(204, 78, 0, 0.5);
+    border-color: #cc4300;
+    color: white;
+}

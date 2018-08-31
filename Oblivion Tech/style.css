@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("imgs/login_bg.jpg");
+    display: grid;
+}
+
+.form {
+    padding-top: 25px;
+    height: 50%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(75, 125, 135, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formHeader {
+    text-align: center;
+    margin-top: 80%;
+    padding-bottom: 4%;
+}
+
+.wrapper {
+    text-align: center;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.formHeader {
+    padding-top: 5px;
+    color: white;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(241, 161, 46, 0.6);
+}
+
+.formHeader h1{
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+    font-family: 'Lobster', cursive;
+}
+
+.btn-action {
+    margin-bottom: 4%;
+    font-family: 'Patua One', cursive;
+    margin-top: 4%;
+    border-radius: 1px;
+    transition: 0.3s ease;
+    color: white;
+    background-color: transparent;
+    border-color: #cc4300;
+}
+
+.btn-action:hover {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    border-radius: 1px;
+    transition: 0.3s ease;
+    background-color: rgba(204, 78, 0, 0.5);
+    border-color: #cc4300;
+    color: white;
+}
+
+
+.btn-secondary {
+    border-radius: 1px;
+    font-family: 'Patua One', cursive;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    transition: 0.3s ease;
+    background-color: transparent;
+    color: white;
+    border-color: #cc4300;
+}
+
+.btn-secondary:hover {
+    transition: 0.3s ease;
+    background-color: rgba(204, 78, 0, 0.5);
+    color: white;
+    border-radius: 1px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+.wrapper .form input[type=email], .wrapper .form input[type=password] {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 10px ;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper .form input[type=email]:focus {
+    transition-property: inherit;
+    border-bottom: 2px solid white;
+}
+
+.wrapper .form input[type=password]:focus {
+    transition-property: inherit;
+    border-bottom: 2px solid white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: white;
+    border: 1px solid cornflowerblue;
+    color: black;
+    padding: 8px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 280px;
+}
+
+.inp .label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  color: #9098a9;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+.inp .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #07f;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all 0.15s ease;
+}
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 12px 0;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid #c8ccd4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+.inp input:hover {
+  background: rgba(34,50,84,0.03);
+}
+.inp input:not(:placeholder-shown) + span {
+  color: #5a667f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus {
+  background: none;
+  outline: none;
+}
+.inp input:focus + span {
+  color: #07f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus + span + .border {
+  transform: scaleX(1);
+}
+

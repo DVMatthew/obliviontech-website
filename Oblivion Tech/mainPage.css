@@ -227,3 +227,7 @@ hr {
     border-color: #cc4300;
     color: white;
 }
+
+.main-info {
+    height: 900px;
+}
